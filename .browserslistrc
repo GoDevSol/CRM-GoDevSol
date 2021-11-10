@@ -1,11 +1,12 @@
-# https://github.com/browserslist/browserslist#readme
+# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.
+# For additional information regarding the format and rule options, please see:
+# https://github.com/browserslist/browserslist#queries
 
->= 0.5%
-last 2 major versions
-not dead
-Chrome >= 60
-Firefox >= 60
+# You can see what browsers were selected by your queries by running:
+#   npx browserslist
+
+> 0.5%
+last 2 versions
 Firefox ESR
-iOS >= 12
-Safari >= 12
-not Explorer <= 11
+not dead
+IE 11

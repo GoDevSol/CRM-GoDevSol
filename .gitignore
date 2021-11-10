@@ -1,51 +1,41 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
+# compiled output
+/dist
+/tmp
+/out-tsc
 
-# eslint cache
-.eslintcache
+# dependencies
+/node_modules
 
-
-# Ignore docs files
-/_gh_pages/
-# Hugo resources folder
-/resources/
-
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.log
-*.orig
-*.rej
-*.swo
-*.swp
-*.vi
-*.zip
-*~
-
-# OS or Editor folders
-._*
-.cache
-.DS_Store
-.idea
+# IDEs and editors
+/.idea
 .project
-.settings
-.tmproj
-*.esproj
-*.sublime-project
+.classpath
+.c9/
+*.launch
+.settings/
 *.sublime-workspace
-nbproject
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+/docs
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
 Thumbs.db
-/.vscode/
-
-# Komodo
-.komodotools
-*.komodoproject
-
-# Folders to ignore
-/js/coverage/
-/node_modules/
